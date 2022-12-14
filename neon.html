@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pocket zone.net</title>
+        <link href="Pocket zone.net\Untitled-2.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            BODY {
+             background: #010a01 ;
+            }
+            .container {
+                padding: 2.5rem;
+                border: solid 2px #fff;
+                border-radius: 0.8rem;
+                position: absolute;
+                box-shadow: 
+                    0 0 .1rem #fff,
+                    0 0 .2rem #fff,
+                    0 0 .3rem #0fa,
+                    0 0 .8rem #0fa,
+                    0 0 1rem #0fa,
+                    inset 0 0 1.3rem #0fa;  
+                    }
+            .neon-text {
+                font-size: 60px;
+                color: #fff;
+                text-shadow:
+                    0 0 7px #fff,
+                    0 0 10px #fff,
+                    0 0 21px #fff,
+                    0 0 42px #0fa,
+                    0 0 82px #0fa,
+                    0 0 92px #0fa,
+                    0 0 102px #0fa,
+                    0 0 151px #0fa;
+            }
+            @keyframes flicker {
+                0%, 18%, 22%, 25%, 53%, 57%, 100% {
+                    text-shadow:
+                        0 0 1px #fff,
+                        0 0 2px #fff,
+                        0 0 5px #fff,
+                        0 0 11px #0fa,
+                        0 0 20px #0fa,
+                        0 0 30px #0fa,
+                        0 0 55px #0fa,
+                        0 0 80px #0fa;
+                    }
+                    20%, 24%, 55% {       
+                        text-shadow: none;
+                        }   
+            }
+            h1 {
+                animation: flicker 1.5s infinite alternate;     
+            }
+           </style>
+    </head>
+    <body>
+        <div class="container">
+            <center><h1 class = "neon-text">Pocket zone.hk</h1></center>
+        </div>
+    </body>
+</html>
